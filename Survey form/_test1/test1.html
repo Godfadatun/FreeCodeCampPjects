@@ -1,0 +1,369 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="test1.css">
+        <style>
+
+            /* The Submit button style*/
+            #submit {
+                    background-color: #4CAF50;
+                    border: none;
+                    color: white;
+                    padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin: 40px 2px;
+                    cursor: pointer;
+                }*/
+        </style>
+                  
+    </head>
+    <body>
+        <h1>Survey Form</h1>
+        <div id="FormCont">
+
+    <!-- Sub - Heading-->
+             <p id="description">
+                A Dating Survey Form
+            </p>
+
+            <form id="Sform">
+
+                <!-- Name -->
+                <div class="rows">
+                    <div class="labels">
+                        <label id="name-label" for="name">* Name:</label>
+                    </div>
+                    <div class="rightTab">
+                        <!--id is name-->
+                        <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Your name please!" required>
+                    </div>
+                </div>
+
+                <!-- eMail -->
+                <div class="rows">
+                    <div class="labels">
+                            <label id="email-label" for="email">* Email: </label>
+                    </div>
+                    <div class="rightTab">
+                            <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Email">
+                    </div>
+                </div>
+
+                <!-- Age -->
+                <div class="rows">
+                        <div class="labels">
+                                <label id="number-label" for="age">* Age: </label>
+                        </div>
+                        <div class="rightTab">
+                                <input type="number" name="date" id="number" min="1" max="100" class="input-field" required placeholder="Your Birthday!">
+                        </div>
+                </div>
+
+                <!-- City -->
+                <div class="rows">
+                        <div class="labels">
+                            <label id="Address-label" for="city">* City of Residence:</label>
+                        </div>
+                        <div class="rightTab">
+                            <!--id is name-->
+                            <input autofocus type="text" name="city" id="city" class="input-field" placeholder="Your city please!" required>
+                        </div>
+                </div>
+
+                <!-- Gender -->
+                <div class="rows">
+                    <div class="labels">
+                        <label id="Gender" for="Gender">* Gender: </label>
+                    </div>
+                    <div class="rightTab">
+                        <select id="dropdown" name="currentPos" class="dropdown">
+                            <option disabled value>Please pick your gender</option>
+                            <option  value="male">Male</option>
+                            <option  value="female">Female</option>
+                            <option  value="Transgender">Transgender</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Height -->
+                <div class="rows">
+                    <div class="labels">
+                        <label id="Height" for="Height">* Height: </label>
+                    </div>
+                    <div class="rightTab">
+                        <select id="dropdown" name="currentPos" class="dropdown">
+                            <option disabled value>Whats your height?</option>
+                            <option  value="h1">5ft-6ft</option>
+                            <option  value="h2">6ft+</option>
+                            <option  value="h3">Under 5ft</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Body Type -->
+                <div class="rows">
+                    <div class="labels">
+                        <label id="body" for="body">* Body type: </label>
+                    </div>
+                    <div class="rightTab">
+                        <select id="dropdown" name="currentPos" class="dropdown">
+                            <option disabled value>Choose one Please!</option>
+                            <option  value="Petite">Pettite</option>
+                            <option  value="Normal">Normal</option>
+                            <option  value="Thick">Thick</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Sexuality-->
+                <div class="rows">
+                    <div class="labels">
+                        <label id="Sex" for="Sex">* Sexuality: </label>
+                    </div>
+                    <div class="rightTab">
+                        <select id="dropdown" name="currentPos" class="dropdown">
+                            <option disabled value>What is your sexuality?</option>
+                            <option  value="Asexual">Asexual</option>
+                            <option  value="Bisexual">Bisexual</option>
+                            <option  value="Heterosexual">Heterosexual</option>
+                            <option  value="Lesbian">Lesbian</option>
+                            <option  value="Gay">Gay</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Pronoun of Address -->
+                <div class="rows">
+                    <div class="labels">
+                        <label id="Pronoun" for="Pronoun">* Pronoun of Address: </label>
+                    </div>
+                    <div class="rightTab">
+                        <select id="dropdown" name="currentPos" class="dropdown">
+                            <option disabled value>How should you be Addressed?</option>
+                            <option  value="they">they/them/theirs</option>
+                            <option  value="he">he/him/his</option>
+                            <option  value="she">she/her/hers</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Occupation -->
+                <div class="rows">
+                    <div class="labels">
+                        <label id="Pronoun" for="Pronoun">* Occupation: </label>
+                    </div>
+                    <div class="rightTab">
+                        <select id="dropdown" name="currentPos" class="dropdown">
+                            <option disabled value>Occupation Please!</option>
+                            <option  value="student">Student</option>
+                            <option  value="Employed">Employed</option>
+                            <option  value="Unemployed">Unemployed</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Nationality -->
+                <div class="rows">
+                    <div class="labels">
+                        <label id="Pronoun" for="Pronoun">* Nationality: </label>
+                    </div>
+                    <div class="rightTab">
+                        <select id="dropdown" name="currentPos" class="dropdown">
+                            <option disabled value>Where are you from?</option>
+                            <option  value="Nig">Nigerian</option>
+                            <option  value="African">African(except Nigeria)</option>
+                            <option  value="ME">Middle Easterner</option>
+                            <option  value="FE">Far Easterner</option>
+                            <option  value="Eu">European</option>
+                            <option  value="NA">North American</option>
+                            <option  value="SA">South American</option>
+                            <option  value="Car">Carribean/islanders</option>
+                            <option  value="Au">Austrian</option>
+                            <option  value="others">others</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Likes -->
+                <div class="rows">
+                    <div class="labels">
+                        <label id="likes" for="likes">* Likes: </label>
+                    </div>
+                    <div class="rightTab">
+                        <ul class="preferences" style="list-style:none;">
+                            <li class="checkbox"><input name="prefer" value="1" type="checkbox" class="userRatings">Outdoors</label></li> 
+                            <li class="checkbox"><input name="prefer" value="2" type="checkbox" class="userRatings">Indoors</li>
+                            <li class="checkbox"><input name="prefer" value="3" type="checkbox" class="userRatings">Anime(Manga)</label></li>
+                            <li class="checkbox"><input name="prefer" value="4" type="checkbox" class="userRatings">Cartoons</label></li>
+                            <li class="checkbox"><input name="prefer" value="5" type="checkbox" class="userRatings">Watching Sports</label></li>
+                            <li class="checkbox"><input name="prefer" value="6" type="checkbox" class="userRatings">Comics</label></li>
+                            <li class="checkbox"><input name="prefer" value="7" type="checkbox" class="userRatings">Movies</label></li>
+                            <li class="checkbox"><input name="prefer" value="8" type="checkbox" class="userRatings">Music</label></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Tribe-->
+                <div class="rows">
+                    <div class="labels">
+                        <label id="Pronoun" for="Pronoun">* Tribe: </label>
+                    </div>
+                    <div class="rightTab">
+                        <select id="dropdown" name="currentPos" class="dropdown">
+                            <option disabled value>What tribe you?</option>
+                            <option  value="Yoruba">Yoruba</option>
+                            <option  value="Igbo">Igbo</option>
+                            <option  value="Hausa">Hausa</option>
+                        </select>
+                        
+                    </div>
+                </div>
+
+                <!-- others -->
+                <div class="rows">
+                    <div class="labels"></div>
+                    <div class="rightTab">
+                        <textarea class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Other tribe"></textarea>                    </div>    
+                </div>
+                
+                <!--Date/Outing-->
+                <div class="rows">
+                        <div class="labels">
+                                <label id="figure" for="figure">* What kind of Date would you prefer: </label>
+                        </div>
+                        <div class="rightTab">
+                            <ul class="preferences" style="list-style:none;">
+                                    <li class="radio"><input name="prefer" value="D1" type="checkbox" class="choice">Romantic Dinner</li>
+                                    <li class="radio"><input name="prefer" value="D2" type="checkbox" class="choice">Cinema</li>
+                                    <li class="radio"><input name="prefer" value="D3" type="checkbox" class="choice">Bowling/Billards Alley</li>
+                                    <li class="radio"><input name="prefer" value="D4" type="checkbox" class="choice">Arcade</li>
+                                    <li class="radio"><input name="prefer" value="D4" type="checkbox" class="choice">Amusement Park</li>
+                            </ul>
+                        </div>
+                </div>     
+
+                <!-- Religion -->       
+                <div class="rows">
+                    <div class="labels">
+                        <label id="Religion" for="Religion">* Does Religion Matter?: </label>
+                    </div>
+                    <div class="rightTab">
+                            <ul class="preferences" style="list-style:none;">
+                                    <li class="radio"><input name="prefer" value="Y" type="radio" class="choice">Yes</li>
+                                    <li class="radio"><input name="prefer" value="N" type="radio" class="choice">No</li>
+                        </ul>    
+                    </div>
+                </div>
+
+                <!--Vice-->
+                <div class="rows">
+                        <div class="labels">
+                                <label id="figure" for="figure">* Vice: </label>
+                        </div>
+                        <div class="rightTab">
+                            <ul class="preferences" style="list-style:none;">
+                                    <li class="radio"><input name="prefer" value="V1" type="checkbox" class="choice">Alcohol</li>
+                                    <li class="radio"><input name="prefer" value="V2" type="checkbox" class="choice">Narcautics(Weed/Drugs)</li>
+                                    <li class="radio"><input name="prefer" value="V3" type="checkbox" class="choice">Womanizing</li>
+                                    <li class="radio"><input name="prefer" value="V4" type="checkbox" class="choice">Gambling</li>
+                                    <li class="radio"><input name="prefer" value="V4" type="checkbox" class="choice">Coffee</li>
+                                    <li class="radio"><input name="prefer" value="V4" type="checkbox" class="choice">Sugar</li>
+                                    <li class="radio"><input name="prefer" value="V4" type="checkbox" class="choice">Social Media</li>
+                                    <li class="radio"><input name="prefer" value="V4" type="checkbox" class="choice">Swearing</li>
+                                    <li class="radio"><input name="prefer" value="V4" type="checkbox" class="choice">TV</li>
+                            </ul>
+                        </div>
+                </div>
+
+    <!-- Female Gender: Questions -->  
+                <div class="rows">
+                    <p id="description">
+                            Questions for the female gender
+                    </p>
+                </div>
+                
+                <!-- Body figure shape -->
+                <div class="rows">
+                    <div class="labels">
+                            <label id="figure" for="figure">* Body figure(shape): </label>
+                    </div>
+                    <div class="rightTab">
+                        <ul class="preferences" style="list-style:none;">
+                                <li class="radio"><input name="prefer" value="A" type="radio" class="choice">Figure 8 (have both ass and boobs)</li>
+                                <li class="radio"><input name="prefer" value="B" type="radio" class="choice">Figure B (have no ass but boobs and belly)</li>
+                                <li class="radio"><input name="prefer" value="C" type="radio" class="choice">Figure P (have no ass just boobs)</li>
+                                <li class="radio"><input name="prefer" value="D" type="radio" class="choice">Figure d (have just ass no boobs)</li>
+                        </ul>
+                    </div>
+                </div>
+
+    <!-- Male Gender: Questions -->
+                <div class="rows">
+                    <p id="description">
+                        Questions for the Male gender
+                    </p>
+                </div>
+                
+                <!--Vice-->
+                <div class="rows">
+                        <div class="labels">
+                                <label id="features" for="features">* What features listed here do you have?: </label>
+                        </div>
+                        <div class="rightTab">
+                            <ul class="preferences" style="list-style:none;">
+                                    <li class="radio"><input name="prefer" value="F1" type="checkbox" class="choice">Beard gang</li>
+                                    <li class="radio"><input name="prefer" value="F2" type="checkbox" class="choice">6 Packs</li>
+                                    <li class="radio"><input name="prefer" value="F3" type="checkbox" class="choice">Pot Belly</li>
+                                    <li class="radio"><input name="prefer" value="F4" type="checkbox" class="choice">Hairy</li>
+                                    <li class="radio"><input name="prefer" value="F5" type="checkbox" class="choice">Afro</li>
+                            </ul>
+                        </div>
+                </div>
+
+    <!-- Extra Questions -->
+                <div class="rows">
+                        <p id="description">
+                            Extra Questions
+                        </p>
+                </div>            
+
+            <!-- Questions -->
+
+                <!-- Glasses -->       
+                <div class="rows">
+                    <div class="labels">
+                        <label id="Glasses" for="Glasses">* Do you wear glasses?: </label>
+                    </div>
+                    <div class="rightTab">
+                            <ul class="preferences" style="list-style:none;">
+                                    <li class="radio"><input name="prefer" value="Y" type="radio" class="choice">Yes</li>
+                                    <li class="radio"><input name="prefer" value="N" type="radio" class="choice">No</li>
+                        </ul>    
+                    </div>
+                </div>
+
+                <!-- Education -->       
+                <div class="rows">
+                    <div class="labels">
+                        <label id="Education" for="Education">* Are you Educated?: </label>
+                    </div>
+                    <div class="rightTab">
+                            <ul class="preferences" style="list-style:none;">
+                                    <li class="radio"><input name="prefer" value="Y" type="radio" class="choice">Yes</li>
+                                    <li class="radio"><input name="prefer" value="N" type="radio" class="choice">No</li>
+                        </ul>    
+                    </div>
+                </div>
+
+                <!-- Submit -->
+                <button id="submit" type="submit">Submit</button>
+                
+
+            </form>
+            
+        </div>
+        
+    </body>
+</html>

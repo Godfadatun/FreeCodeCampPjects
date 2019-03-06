@@ -1,0 +1,105 @@
+html,
+body {
+    text-align: center;
+    background-color: #a9d7d1;
+    font-family: 'Raleway', Helvetica, sans-serif;
+    font-size: 2em;
+    min-width: 300px;
+}
+h1 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: navy;
+}
+#FormCont {
+    background-image: url(/home/daniel/Downloads/1bf2d49e0aadcc0bdd40dfa2f7ecb38d.jpg);
+    margin: 0 auto;
+    border-radius: 4px;
+    width: 75%;
+    max-width: 900px;
+    padding: 10px;
+    padding-top: 20px; 
+    padding-left: 40px;
+    color: white;
+    text-align: left;
+}
+#description {
+    font-size: 30px;
+    margin-bottom: 0px; 
+}
+.labels {
+    /*display: inline-block;*/
+    float: left;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: middle;
+    margin-top: 10px;
+    font-size: 20px;
+    margin: 0px;
+    padding-top: 10px;
+    
+  }
+#name-label {
+    font-size: 20px;
+}
+.rightTab {
+    display: inline-block;
+    text-align: left;
+    width: 58%;
+    vertical-align: top;
+    margin: 0px;
+    padding-top: 0px;
+    font-size: 20px;
+  }
+  .input-field {
+    height: 30px;
+    width: 280px;
+    padding: 5px;
+    margin: 10px;
+    border: 0px solid #c0c0c0;
+    border-radius: 2px;
+  }
+  .rows {
+      margin: 0px;
+      padding: 0px;
+  }
+  #Sform {
+
+  }
+  .dropdown {
+    height: 35px;
+    width: 140px;
+    padding: 5px;
+    margin: 10px;  
+    margin-top: 15px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+  }
+  .radio, .checkbox {
+    position: relative;
+    left: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    display: block;
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+  .preferences {
+      margin-top: 0px;
+      padding-left: 10px;
+      padding-top: 10px;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+  }
+  .highlight {
+      background-color: #a9d7d1;
+  }
+  .extra {
+      padding-left: 40px;
+  }
+  @media screen and (max-width: 833px) {
+    .input-field {
+      width: 80%;
+    }
+
